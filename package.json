@@ -1,0 +1,14 @@
+{
+  "name": "quiz-command",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --use-env-proxy server.js",
+    "start": "node --use-env-proxy server.js",
+    "test": "node --test --test-isolation=none"
+  },
+  "engines": {
+    "node": ">=24.5"
+  }
+}
